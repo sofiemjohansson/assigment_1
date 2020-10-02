@@ -1,0 +1,57 @@
+<html>
+<body>
+<title>Employee survey form</title>
+<body style="background-color:#20B2AA;">
+<headline><strong>Emplye survey form</strong></headline>
+<p></p>
+
+
+<label for="name">Enter full name:</label>
+  <input type="text" id="name" name="name" maxlength="20"><br><br>
+                          
+<br>
+  <label for="Description">Write a short description about you:</label> 
+<br><textarea rows="4" cols="30" maxlength="200 name="Description"
+                            id="Description"></textarea> 
+<br><br>
+
+<i>Do you play any sports?</i><br></b>
+
+<br><input type="radio" id="" name="Yes" value="Yes">
+  <label for="Yese">Yes</label>
+  <input type="radio" id="No" name="No" value="No">
+  <label for="No">No</label></br>
+
+<br>
+<h><strong><i>How do you prefer to read about interesting things?</br></i></strong>
+<br><input type="checkbox" id="Books" name="" value="Books">
+  <label for="Books"> Books</label>
+  <input type="checkbox" id="Magazines" name="Magazines" value="Magazines">
+  <label for="Magazines"> Magazines</label>
+  <input type="checkbox" id="Online" name="Online" value="Online">
+  <label for="Online"> Online</label></br>
+
+
+<p>What kind of genre do you prefer in movies?</p>  
+<body> 
+    <form> 
+        <label for="Movie">Movie:</label> 
+        <select name="genre" id="gengre"> 
+        <option value=""></option> 
+        <option value="Action">Action</option> 
+        <option value="Romantics">Romantics</option> 
+        <option value="Comedy">Comedy</option> 
+        <option value="Drama">Drama</option> 
+        <option value="Horror">Horror</option> 
+        </select> 
+<br>
+</br>
+
+<br><input type="submit" value="Submit form"></br>
+
+    </form> 
+</body> 
+</html> 
+
+
+
